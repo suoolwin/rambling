@@ -223,3 +223,62 @@ footer{
     
 }
 /* End Footer Section  */
+
+
+.blogs{
+    background: linear-gradient(30deg,rgba(0,0,0,0),rgba(0,0,0,0.3)),url(https://cdn.outsideonline.com/wp-content/uploads/2021/07/backpacking-couple-s.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.blogtexts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;   
+
+    padding: 10px;
+    margin: 0;
+}
+
+
+.fromlefts{
+    animation-name: fromleftani;
+    animation-duration: 3s;
+}
+
+
+.fromrights{
+    animation-name: fromrightani;
+    animation-duration: 3s;
+}
+
+@keyframes fromleftani {
+    from{
+        transform: translateX(-120px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+@keyframes fromrightani {
+    0%{
+        transform: translateX(30px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
