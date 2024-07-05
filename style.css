@@ -372,6 +372,33 @@ label{
 }
 /* End about Section  */
 
+/* Start Bookonline Section  */
+.bookings{
+    height: 100vh;
+
+    display: grid;
+    text-align: center;
+}
+.bookings .inputs{
+    background-color: #f4f4f4;
+    color: #000;
+    border-color: transparent;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+}
+
+.submit-btns{
+    width: 100px;
+    height: auto;
+
+    background-color: #fff;
+    
+
+    padding: 10px;
+    margin: 10px auto;
+}
+/* End Bookonline Section  */
+
 /* Start Footer Section  */
 footer{
     background: linear-gradient(steelblue,rgba(0,0,0,0.3));
