@@ -399,6 +399,12 @@ label{
 }
 /* End Bookonline Section  */
 
+/* Start Currentprogramme Section  */
+tbody td{
+    max-width: 800px;
+}
+/* End Currentprogramme Section  */
+
 /* Start Footer Section  */
 footer{
     background: linear-gradient(steelblue,rgba(0,0,0,0.3));
