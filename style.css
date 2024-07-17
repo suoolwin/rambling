@@ -362,14 +362,14 @@ label{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
 
-.abouts{
     position: absolute;
     top: 150px;
     left: 15%;
+    
 }
+
+
 /* End about Section  */
 
 /* Start Bookonline Section  */
@@ -379,6 +379,7 @@ label{
     display: grid;
     text-align: center;
 }
+
 .bookings .inputs{
     background-color: #f4f4f4;
     color: #000;
@@ -400,12 +401,36 @@ label{
 /* End Bookonline Section  */
 
 /* Start Currentprogramme Section  */
-tbody td{
-    max-width: 800px;
+.currentprogrammes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+table#currtables,tr,th,td{
+    border: 2px dotted steelblue;
+    border-collapse: collapse;
+}
+
+table{ 
+    /* display: flex; */
+    text-align: center;
+    color: steelblue;
+    font-size: 20px;
+    box-shadow: 5px 10px 50px steelblue;
+}
+
+.currentprogrammeheaders{
+    background: none;
 }
 /* End Currentprogramme Section  */
 
 /* Start Footer Section  */
+.footers{
+    display: block;
+}
+
 footer{
     background: linear-gradient(steelblue,rgba(0,0,0,0.3));
     padding: 10px;
