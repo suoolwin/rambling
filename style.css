@@ -191,7 +191,7 @@ header{
 
     border: none;
     border-radius: 50px;
-    box-shadow: 0 40px 15px rgba(0,0,0,0.4);
+    box-shadow: 0 20px 15px rgba(0,0,0,0.4);
 
     transition: background-position .3s ease-in;
 }
