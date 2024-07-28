@@ -234,14 +234,10 @@ header{
     border: 1px solid #f4f4f4;
     box-shadow: 1px 10px 20px rgba(0,0,0,0.3);
 }
-
+/* Start Blog Section  */
 
 .blogs{
-    background: linear-gradient(30deg,rgba(0,0,0,0),rgba(0,0,0,0.3)),url(https://cdn.outsideonline.com/wp-content/uploads/2021/07/backpacking-couple-s.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+   background: none;
 }
 
 .blogtexts{
