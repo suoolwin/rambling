@@ -417,6 +417,11 @@ table{
     box-shadow: 5px 10px 50px steelblue;
 }
 
+.tabletexts{
+    min-width: 700px;
+    max-width: 800px;
+}
+
 .currentprogrammeheaders{
     background: none;
 }
