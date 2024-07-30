@@ -240,90 +240,33 @@ header{
    background: none;
 }
 
-.blogtexts{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 1px;   
-
-    padding: 10px;
-    margin: 0;
-}
-
-
-.fromlefts{
-    animation-name: fromleftani;
-    animation-duration: 3s;
-}
-
-
-.fromrights{
-    animation-name: fromrightani;
-    animation-duration: 3s;
-}
-
-@keyframes fromleftani {
-    from{
-        transform: translateX(-120px);
-        opacity: 0;
-    }
-
-    to{
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
-
-
-@keyframes fromrightani {
-    0%{
-        transform: translateX(30px);
-        opacity: 0;
-    }
-
-    100%{
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
+/* End Blog Section  */
 
 /* Start Register Section  */
 
+.regs{
+    background: none;
+    background-color: #f4f4f4;
+
+}
+
 .registers{
+
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.forms{
-    
-    height: 800px;
-    width: 500px;
-    background-color: rgba(255, 255, 255, 0.13);
-    padding: 50px 35px;
-
-    border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 40px rgba(8,7,16,0.6);
-
-    position: absolute;
-   
-    top: 15%; 
-   
 }
 
 label{
     display: block;
-    margin-top: 27px;
+    margin-top: 25px;
     font-size: 18px;
     font-weight: bold;
+    color: purple;
 }
 
 .reginputs{
-    display: block;
+    /* display: inline; */
     height: 50px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.07);
@@ -358,10 +301,6 @@ label{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    position: absolute;
-    top: 150px;
-    left: 15%;
     
 }
 
