@@ -24,6 +24,24 @@ body{
     
 }
 
+/* Start Back To Top  */
+.btn-backtotops{
+    background-color: var(--primary-color);
+    color: #000;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+    padding: 10px;
+
+    position: fixed;
+    right: 30px;
+    bottom: 125px;
+
+    z-index: 200;
+}
+
+/* End Back To Top  */
+
 /* Start Header Section  */
 
 header{
